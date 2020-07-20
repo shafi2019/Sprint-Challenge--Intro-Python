@@ -28,7 +28,7 @@ cities = []
 
 def cityreader(cities=[]):
   print("*****")
-  with open('/Users/patrickmillet/Documents/CS_Development/Sprint-Challenge--Intro-Python/src/cityreader/cities.csv') as csvfile:
+  with open('src/cityreader/cities.csv') as csvfile:
     reader = csv.reader(csvfile)
     next(reader, None)
     for row in reader:
